@@ -6,15 +6,20 @@ public class Calculadorasimples {
         // Criação de um objeto Scanner para ler a entrada do usuário
         Scanner scanner = new Scanner (System.in);
         System.out.println("Digite o primeiro número: ");
+        // Lê o primeiro número
 
         double num1 = scanner.nextDouble();
         System.out.println("Digite o segundo número: ");
+        // Lê o segundo número
 
         double num2 = scanner.nextDouble();
         System.out.println("Escolha a operação (+,-,*,/): ");
+        // Lê a operação desejada
 
         char operacao = scanner.next().charAt(0);
         double resultado = 0;
+        // Variável para armazenar o resultado da operação
+        // Verifica qual operação foi escolhida e realiza o cálculo correspondente
 
         switch (operacao) {
             case '+':
